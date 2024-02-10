@@ -13,10 +13,10 @@ config = dotenv_values(".env")
 
 # Define your database connection
 database = MySQLDatabase(
-    "your_database",
-    user="your_user",
-    password="your_password",
-    host="your_host",
+    config["DB_NAME"],
+    user=config["DB_USR"],
+    password=config["DB_PASSWD"],
+    host=config["DB_HOST"],
     port=3306,
 )
 
