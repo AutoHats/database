@@ -1,5 +1,17 @@
-# Database file
+<h1 align=center>Database file</h1>
 
-Written in MySQL.
+Written in Peewee.
 
-I made this a repo cuz users will be both used in bot and site.
+1. Install dependencies
+```sh
+  pip install -r requirements.txt
+```
+
+2. Edit .env file
+  - **DB_HOST:** IP adress or domain of the database
+  
+  - **DB_NAME:** Name of the database
+  
+  - **DB_USR:** Database user
+  
+  - **DB_USR_PASSWD:** Password of the database user
