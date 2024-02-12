@@ -15,3 +15,8 @@ Written in Peewee.
   - **DB_USR:** Database user
   
   - **DB_USR_PASSWD:** Password of the database user
+
+3. Run database.py
+4. ```sh
+   python3 database.py
+   ```
